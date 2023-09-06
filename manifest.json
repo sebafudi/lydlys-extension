@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Lydlys",
+  "version": "1.0",
+  "description": "Sync LED lights with music",
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*", "https://www.youtube.com/*"],
+      "js": ["scripts/content.js"]
+    }
+  ]
+}
